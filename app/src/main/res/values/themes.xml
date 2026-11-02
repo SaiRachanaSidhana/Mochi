@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- The UI is Compose; this theme only covers the window before the first frame (follows light/dark). -->
+  <style name="Theme.Mochi" parent="android:Theme.DeviceDefault.DayNight">
+    <item name="android:windowBackground">@color/mochi_window_background</item>
+  </style>
+</resources>

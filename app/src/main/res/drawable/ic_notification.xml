@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <!-- A tiny blob with two eyes cut out, in the single-colour style the status bar expects. -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:fillType="evenOdd"
+      android:pathData="M12,3.5C17,3.5 21,8 21,13.5C21,18 17.5,20.5 12,20.5C6.5,20.5 3,18 3,13.5C3,8 7,3.5 12,3.5ZM8.7,11.2C8.1,11.2 7.6,11.7 7.6,12.4C7.6,13.1 8.1,13.6 8.7,13.6C9.3,13.6 9.8,13.1 9.8,12.4C9.8,11.7 9.3,11.2 8.7,11.2ZM15.3,11.2C14.7,11.2 14.2,11.7 14.2,12.4C14.2,13.1 14.7,13.6 15.3,13.6C15.9,13.6 16.4,13.1 16.4,12.4C16.4,11.7 15.9,11.2 15.3,11.2Z" />
+</vector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <group
+      android:scaleX="0.5"
+      android:scaleY="0.5"
+      android:translateX="29"
+      android:translateY="31">
+    <!-- Silhouette of Mochi with the eyes and smile punched out, for themed icons. -->
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M50,14C78,14 94,40 94,66C94,84 80,93 50,93C20,93 6,84 6,66C6,40 22,14 50,14ZM31.5,50 a3.5,5 0 1,0 7,0 a3.5,5 0 1,0 -7,0ZM61.5,50 a3.5,5 0 1,0 7,0 a3.5,5 0 1,0 -7,0Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,17C45,8 52,0 65,1C67,12 60,20 50,17Z" />
+  </group>
+</vector>

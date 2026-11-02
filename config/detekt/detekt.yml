@@ -1,0 +1,52 @@
+build:
+  maxIssues: 0
+
+complexity:
+  LongMethod:
+    threshold: 80
+    ignoreAnnotated: ['Composable']
+  LongParameterList:
+    functionThreshold: 8
+    constructorThreshold: 8
+    ignoreDefaultParameters: true
+    ignoreAnnotated: ['Composable']
+  CyclomaticComplexMethod:
+    ignoreAnnotated: ['Composable']
+  TooManyFunctions:
+    ignoreAnnotated: ['Composable']
+    thresholdInFiles: 15
+    thresholdInClasses: 15
+  LargeClass:
+    threshold: 400
+
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+  TopLevelPropertyNaming:
+    constantPattern: '[A-Z][A-Za-z0-9_]*'
+
+style:
+  MagicNumber:
+    ignoreNamedArgument: true
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    ignoreExtensionFunctions: true
+    ignoreAnnotation: true
+    ignoreAnnotated: ['Preview']
+    ignoreEnums: true
+    excludes: ['**/test/**', '**/androidTest/**']
+  ReturnCount:
+    max: 4
+    excludeGuardClauses: true
+  UnusedPrivateMember:
+    ignoreAnnotated: ['Preview']
+  MaxLineLength:
+    maxLineLength: 120
+  UnnecessaryAbstractClass:
+    active: false
+
+exceptions:
+  TooGenericExceptionCaught:
+    active: true
+  SwallowedException:
+    active: false
